@@ -21,7 +21,9 @@ class BoardingView extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage(Appassets.bordings),
+            image: AssetImage(
+              Appassets.bordings,
+            ),
           ),
         ),
         child: Padding(
